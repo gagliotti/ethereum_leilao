@@ -1,6 +1,6 @@
 # Ethereum Decentralized Auctions
 
-Aplicação que interage com a blockchain do Ethereum. O código roda no navegador e conecta na blockchain através do Metamask.
+Aplicação que interage com a blockchain do Ethereum. O código roda no navegador e conecta na rede Rinkeby através do Metamask.
 
 A implementação da lógica da aplicação está em 'main.js'. Utiliza-se o browserify (https://browserify.org/) para gerar o código 'bundle.js' que é carregado na página web. 
 
