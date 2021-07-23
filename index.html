@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+		<!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />-->
+		<title>Leilão Online no Blockchain</title>
+	</head>
+	<body>
+		<div class="bg-image"></div>
+		<div class="bg-text">
+			<div class="content">
+				<h2>Leilão Online no Blockchain usando Smart Contract</h2>
+				<!--<h4>Conexão Metamask:</h4>
+				<button class="buttonMetamask btn">Permitir conexão</button>-->
+				<label id="labelMetamaskConnection">Fazer login no Metamask.</label>
+				<h4>Inserir Novo Lote:</h4>
+				<label>Nome do Lote: </label>
+				<input type="text" id="inputLotName" maxlength="15">
+				<br>
+				<br>
+				<label>Duração em blocos: </label>
+				<input type="number" min="5" value="5" step="1" id="inputBlocks">
+				<br>
+				<br>
+				<label>Inverso:</label>
+				<input type="checkbox" id="checkInvert"></input>
+				<br>
+				<br>
+				<label id="labelInitialBid" style="visibility:hidden">Lance inicial:</label>	
+				<input id="inputInitialBid" style="visibility:hidden" type="number" min="0"></input>
+				<br>
+				<br>
+				<button class="buttonNewLot btn">Enviar</button>
+				<br>
+				<br>
+				<label id="labelTxNewLot"></label>
+				<br>
+				<br>
+				<a id="linkNewLot" href="#" target="_blank"></a>
+				<h4>Acompanhar lote:</h4>
+				<label>Nome do Lote: </label>
+				<select type="text" id="inputLotName2">
+					<option value="" disabled selected hidden>Selecionar</option>
+				</select>
+				<button class="buttonRefreshLots btn">Atualizar</button>
+				<br>
+				<br>
+				<label>Lance atual:</label>
+				<label id="labelBid"></label>
+				<br>
+				<br>
+				<label>Blocos para o fim: </label>
+				<label id="labelBlocks"></label>
+				<br>
+				<br>
+				<label>Invertido:</label>
+				<label id="labelInverted"></label>
+				<br>
+				<br>
+				<label>Por:</label>
+				<label id="labelBy"></label>
+				<br>
+				<br>
+				<label>Lance: </label>
+				<input type="number" min="0" value="0" id="inputBitValue">
+				<label>ether</label>
+				<button class="buttonBid btn">Enviar</button>
+				<br>
+				<br>
+				<label id="labelTxNewBid"></label>
+				<br>
+				<a id="linkNewBid" href="#" target="_blank"></a>
+				<h4>Sacar valor recebido:</h4>
+				<label>Nome do Lote: </label>
+				<select type="text" id="inputLotName3">
+					<option value="" disabled selected hidden>Selecionar</option>
+				</select>
+				<button class="buttonRefreshLots2 btn">Atualizar</button>
+				<br>
+				<br>
+				<button class="buttonWithdraw btn">Solicitar</button>
+				<br>
+				<br>
+				<label id="labelTxWithdraw"></label>
+				<br>
+				<a id="linkWithdraw" href="#" target="_blank"></a>
+			</div>
+		</div>
+	</body>
+
+	<script src="bundle.js"></script>
+</html>
